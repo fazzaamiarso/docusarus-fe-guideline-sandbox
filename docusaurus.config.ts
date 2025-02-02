@@ -19,8 +19,9 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "fazzaamiarso", // Usually your GitHub org/user name.
+  projectName: "docusarus-fe-guideline-sandbox", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -41,7 +42,7 @@ const config: Config = {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/fazzaamiarso/docusarus-fe-guideline-sandbox",
         },
         blog: false,
         theme: {
@@ -50,15 +51,15 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  trailingSlash: false,
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "WidaTech FE Guideline",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "WidaTech Logo",
+        src: "img/widatech.jpg",
       },
       items: [
         {
@@ -68,7 +69,7 @@ const config: Config = {
           label: "Guide",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/fazzaamiarso/docusarus-fe-guideline-sandbox",
           label: "GitHub",
           position: "right",
         },
@@ -76,47 +77,6 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
