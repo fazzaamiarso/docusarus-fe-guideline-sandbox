@@ -12,7 +12,7 @@ const config: Config = {
   noIndex: true,
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://fazzaamiarso.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/docusarus-fe-guideline-sandbox",
@@ -75,10 +75,7 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+    footer: {},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
