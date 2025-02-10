@@ -126,3 +126,9 @@ Before coding, make sure to understand the requirements clearly from **PRD,** wh
 Most likely, we have a design system that’s made by the design team such as the typography, colors, and components. We should translate this Design System into the project config when setting up the project.
     
     ![design system preview](/img/workflow/design-system-preview.png)
+
+### Storybook
+Generally, shared/global components should have a `.stories` related to it so you can see how components looks like. If building a new global component or adding new state that significanlty affect the UI, make sure to make a story for it. Even, we can develop the component in isolation by running the storybook server.
+
+    
+

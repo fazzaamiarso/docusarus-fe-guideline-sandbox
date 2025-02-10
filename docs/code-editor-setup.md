@@ -6,7 +6,7 @@ sidebar_label: Code Editor Setup
 # Code Editor Setup
 Here are extensions that we need to setup in our code editor. This ensure consistency while developing with different machine.
 
-We assume that you use are using VSCode.
+We assume that you use are using VSCode or VSCode compatible code editor (cursor, trae).
 
 ## Mandatory
 
