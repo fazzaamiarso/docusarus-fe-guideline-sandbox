@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwida_fe_docs_test=self.webpackChunkwida_fe_docs_test||[]).push([[583],{6107:(e,t,s)=>{s.r(t),s.d(t,{default:()=>c});var d=s(6347),u=s(4848);function c(){return(0,u.jsx)(d.rd,{to:"code-editor-setup"})}}}]);
